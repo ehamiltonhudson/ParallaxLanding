@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  /* height: 100vh; */
+  height: 10000px;
+  width: 100%;
+}
+
+
+.container {
+  /* height: 20%; */
+  width: 100%;
+  min-height: 100vh;
+  min-width: 530px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* background-repeat: repeat-y; */
+  background-size: cover;
+  scroll-behavior: smooth; */
+  /* z-index: -2; */
+  display: flex;
+  break-after: right;
+  scroll-margin: 10vh 2vw 10vh 4vw;
+  position: static;
+}
+
+#parallax-one {
+  background-image: url('../assets/Brazil.jpg');
+  background-color:   rgba(85, 143, 163, 0.34);
+  /* position: fixed; */
+}
+
+#parallax-two {
+  background-image: url('../assets/NorthernLights.jpg');
+  background-color: rgba(86, 126, 113, 0.34);
+  /* visibility: hidden; */
+}
+
+#parallax-three {
+  background-image: url('../assets/Kauai.jpg');
+  background-color: rgba(148, 175, 182, 0.34);
+  /* visibility: hidden; */
+}
+
+#parallax-four {
+  background-image: url('../assets/DarkMagma.jpeg');
+  background-color: rgba(215, 159, 108, 0.34);
+  /* visibility: hidden; */
+}
+
+#parallax-five {
+  background-image: url('../assets/MilkyWay.jpg');
+  background-color: rgba(88, 104, 115, 0.34);
+  /* visibility: hidden; */
+}
+
+/* #parallax-five {
+  background-image: url('./assets/ColdMountain.jpg');
+  background-color: rgba(88, 104, 115, 0.34);
+  /* visibility: hidden; */
+} */
+
+
+.overlay {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+  background-color: inherit;
+  width: 50%;
+  min-width: 265px;
+  /* z-index: 2; */
+  margin: 1vh 0 1vh 1vh;
+}
+
+/* #brazil {
+  display: subgrid;
+}
+
+#northern-lights {
+  display: subgrid;
+}
+
+#kauai {
+  display: subgrid;
+}
+
+#dark-magma {
+  display: subgrid;
+}
+
+#milky-way {
+  display: subgrid;
+} */
+
+.overlay-text {
+  width: 450px;
+  min-width: 230px;
+  height: 100vh;
+  padding-bottom: 75px;
+  margin-left: 15%;
+}
+
+
+h1, p {
+  margin-right: 45px;
+  min-width: inherit;
+
+}
+
+h1 {
+  font-family: 'PlayfairDisplayBlack';
+  color: #fff;
+  text-shadow: 1px 2px 2px #212633;
+}
+
+p {
+  font-family: 'ArgentCFLight' !important;
+  color: rgba(184, 186, 191, 0.84);
+  /* color: white; */
+  text-shadow: 0 1px 1px #151924;
+  /* letter-spacing: 1px; */
+}
+
+.transition-button {
+  position: -webkit-sticky;
+  position: sticky;
+  z-index: 1;
+  width: 25px;
+  height: 25px;
+  margin: 2% auto;
+  position: fixed;
+  top: 75vh;
+  right: 2vw;
+}
+
+#up {
+  color: #C4C3C4;
+  background-color: rgba(252, 252, 252, 0.85);
+  box-shadow: 0px 0px 0px 1px #C4C3C4;
+  border-radius: 25px;
+  padding: 1px;
+  margin: 10% auto;
+}
+
+#down {
+  color: #C4C3C4;
+  background-color: rgba(252, 252, 252, 0.85);
+  box-shadow: 0px 0px 0px 1px #C4C3C4;
+  border-radius: 25px;
+  padding: 1px;
+  margin: 10% auto;
+}
