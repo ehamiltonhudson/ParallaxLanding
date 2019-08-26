@@ -1,3 +1,13 @@
+@font-face {
+  font-family: 'ArgentCFLight';
+  src: url(../assets/ArgentCF-Light.otf) format('woff');
+}
+
+@font-face {
+  font-family: 'PlayfairDisplayBlack';
+  src: url(../assets/PlayfairDisplay-Black.otf) format('woff');
+}
+
 * {
   margin: 0;
   padding: 0;
